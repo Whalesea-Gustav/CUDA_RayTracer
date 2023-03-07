@@ -15,7 +15,7 @@ project(${PROJECT_NAME})
 
 add_executable(${PROJECT_NAME}
         main.cu
-        DeviceManager.cu DeviceManager.cu)
+        DeviceManager.cu DeviceManager.cu window.cpp scene.h camera.h util/float3Extension.cuh scene.cpp util/macros.h)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE header_lib)
 

@@ -65,6 +65,7 @@ target_link_libraries(header_lib INTERFACE $<BUILD_INTERFACE:developer_flags>)
 
 target_include_directories( header_lib
         INTERFACE "include"
+        INTERFACE "include/glm"
         INTERFACE "${spdlog_SOURCE_DIR}/include"
         INTERFACE ${CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES}
         )

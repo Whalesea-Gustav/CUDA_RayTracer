@@ -1,6 +1,8 @@
 #include <iostream>
 #include "DeviceManager.h"
 #include "util/logger.h"
+#include "window.h"
+#include "scene.h"
 
 int main()
 {
@@ -9,4 +11,7 @@ int main()
     GPLog::init();
 
     PrintDeviceInfo();
+
+    Scene::Instance();
+
 }
