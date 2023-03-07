@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+/cmake-build-debug-savior-msvc2022/
+/cmake-build-debug-ubuntu22-clang-14/
